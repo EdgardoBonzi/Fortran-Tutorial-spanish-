@@ -33,23 +33,23 @@ En esta carpeta guardaré programas de ejemplo de Fortran 2003, 2008, 2018.
  Edgardo Bonzi
  
 ##gif
- \rocket
- \clipboard
- \wrench
-gear
-nut_and_bolt
-keyboard
-package
-hammer_and_wrench
-pushpin
-black_nib
-page_facing_up
-gift
-loudspeaker
-beer
-coffee
-nerd_face
-heart 
-blush
-
-
+:rocket:  
+:clipboard:  
+:wrench:  
+:gear:  
+:nut_and_bolt:  
+:keyboard:  
+:package:  
+:hammer_and_wrench:  
+:pushpin:  
+:black_nib:  
+:page_facing_up:  
+:gift:  
+:loudspeaker:  
+:beer:  
+:coffee:  
+:nerd_face:  
+:heart:  
+:blush:  
+:heart_eyes:  
+(https://tutorialmarkdown.com/emojis)

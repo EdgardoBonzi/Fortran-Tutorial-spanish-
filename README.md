@@ -4,7 +4,7 @@
 # Fortran
 En esta carpeta guardamos programas de ejemplo de Fortran 2003, 2008, 2018.
 
-1. Tenemos una breve evolución histórica del Lenguaje desde el 66 al 2020, la cual es está en estado de Evolución.
+1. Tenemos una breve evolución histórica del Lenguaje desde el 66 al 2020, la cual está en estado de Evolución.
 
 2. Ejemplos de pequeños Programas para aprender el lenguaje.
 

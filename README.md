@@ -29,10 +29,10 @@ En esta carpeta guardaré programas de ejemplo de Fortran 2003, 2008, 2018.
 
 ## Desarrolando Ejemplos avanzados de Programas 🔧
 
-## Autor black_nib
+## Autor :black_nib:  
  Edgardo Bonzi
  
-##gif
+##gif  
 :rocket:  
 :clipboard:  
 :wrench:  

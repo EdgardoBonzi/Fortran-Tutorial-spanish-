@@ -9,16 +9,16 @@ En esta carpeta guardamos programas de ejemplo de Fortran 2003, 2008, 2018.
 2. Ejemplos de pequeños Programas para aprender el lenguaje.
 
 ## Evolución histórica 🚀
-
-. FORTRAN 66 
-. FORTRAN IV
-. FORTRAN 77
-. FORTRAN 90
-. FORTRAN 95
-. FORTRAN 2003
-. FORTRAN 2008
-. FORTRAN 2018
-. FORTRAN 2022
+  
+* FORTRAN 66  
+* FORTRAN IV  
+* FORTRAN 77  
+* FORTRAN 90  
+* FORTRAN 95  
+* FORTRAN 2003  
+* FORTRAN 2008  
+* FORTRAN 2018  
+* FORTRAN 2022  
 
 ## Indice de Ejemplos básicos de Programa 📋
 0. Ejemplo00.f90

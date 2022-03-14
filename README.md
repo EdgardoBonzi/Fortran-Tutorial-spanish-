@@ -2,11 +2,11 @@
 ![FORTRAN](./F.png)
 
 # Fortran
-En esta carpeta guardaré programas de ejemplo de Fortran 2003, 2008, 2018.
+En esta carpeta guardamos programas de ejemplo de Fortran 2003, 2008, 2018.
 
-1. Trataré de hacer una breve evolución histórica del Lenguaje desde el 66 al 2020
+1. Tenemos una breve evolución histórica del Lenguaje desde el 66 al 2020, la cual es está en estado de Evolución.
 
-2. Guardaremos ejemplos de pequeños Programas para aprender el lenguaje.
+2. Ejemplos de pequeños Programas para aprender el lenguaje.
 
 ## Evolución histórica 🚀
 
@@ -21,6 +21,7 @@ En esta carpeta guardaré programas de ejemplo de Fortran 2003, 2008, 2018.
 . FORTRAN 2022
 
 ## Indice de Ejemplos básicos de Programa 📋
+0. Ejemplo00.f90
 1. Ejemplo01.f90
 2. Ejemplo02.f90
 3. Ejemplo03.f90
@@ -32,7 +33,7 @@ En esta carpeta guardaré programas de ejemplo de Fortran 2003, 2008, 2018.
 ## Autor :black_nib:  
  Edgardo Bonzi
  
-##gif  
+## gif  
 :rocket:  
 :clipboard:  
 :wrench:  

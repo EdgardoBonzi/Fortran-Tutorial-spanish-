@@ -27,7 +27,29 @@ En esta carpeta guardaré programas de ejemplo de Fortran 2003, 2008, 2018.
 4. Ejemplo04.f90
 5. Ejemplo05.f90
 
-## Desarrolando Ejemplos avanzados de Programas 📋
+## Desarrolando Ejemplos avanzados de Programas 🔧
 
+## Autor black_nib
+ Edgardo Bonzi
+ 
+##gif
+rocket
+clipboard
+wrench
+gear
+nut_and_bolt
+keyboard
+package
+hammer_and_wrench
+pushpin
+black_nib
+page_facing_up
+gift
+loudspeaker
+beer
+coffee
+nerd_face
+heart 
+blush
 
 

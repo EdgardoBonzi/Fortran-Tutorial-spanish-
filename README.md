@@ -33,9 +33,9 @@ En esta carpeta guardaré programas de ejemplo de Fortran 2003, 2008, 2018.
  Edgardo Bonzi
  
 ##gif
-rocket
-clipboard
-wrench
+ \rocket
+ \clipboard
+ \wrench
 gear
 nut_and_bolt
 keyboard

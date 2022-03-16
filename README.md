@@ -28,7 +28,7 @@ En esta carpeta guardamos programas de ejemplo de Fortran 2003, 2008, 2018.
 4. Ejemplo04.f90
 5. Ejemplo05.f90
 
-## Desarrolando Ejemplos avanzados de Programas 🔧
+## Desarrollando Ejemplos avanzados de Programas 🔧
 
 ## Autor :black_nib:  
  Edgardo Bonzi

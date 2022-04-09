@@ -1,0 +1,4 @@
+Uno    1.234 Dos   2.222 Tres 3.333
+Cuatro 4.444 Cinco 5.555 Seis 6.666
+Cinco 5.555 Seis 6.666 Siete 7.777
+70

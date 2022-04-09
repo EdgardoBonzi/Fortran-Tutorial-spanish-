@@ -1,1 +1,1 @@
-gfortran Ejemplo05.f90 -o gEjemplo05.x
+gfortran Ejemplo02bis.f90 -o gEjemplo02bis.x

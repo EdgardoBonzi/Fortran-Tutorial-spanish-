@@ -15,10 +15,6 @@ bin-release/
 *.x
 
 # Graph
-*.png
-*.jpg
-*.jpeg
-*.eps
 *.pdf
 
 # Movie

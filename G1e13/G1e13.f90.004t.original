@@ -1,0 +1,235 @@
+g1e13 ()
+{
+  integer(kind=4)D.8 fuD.3872;
+  integer(kind=4)D.8 mD.3873;
+  integer(kind=4)D.8 nD.3874;
+  integer(kind=4)D.8 nmaxD.3875;
+  real(kind=4)D.16 suma1D.3876;
+  real(kind=4)D.16 suma2D.3877;
+
+  nmaxD.3875 = 1000000;
+  suma1D.3876 = (real(kind=4)D.16) nmaxD.3875 * 1.00000001490116119384765625e-1;
+  {
+    struct __st_parameter_dt dt_parm.0D.3878;
+
+    dt_parm.0D.3878.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+    dt_parm.0D.3878.commonD.3793.lineD.3680 = 49;
+    dt_parm.0D.3878.commonD.3793.flagsD.3677 = 128;
+    dt_parm.0D.3878.commonD.3793.unitD.3678 = 6;
+    _gfortran_st_write (&dt_parm.0D.3878);
+    _gfortran_transfer_character_write (&dt_parm.0D.3878, &" 1000000 * 0.1_wp = "[1]{lb: 1 sz: 1}, 20);
+    _gfortran_transfer_real_write (&dt_parm.0D.3878, &suma1D.3876, 4);
+    _gfortran_st_write_done (&dt_parm.0D.3878);
+  }
+  {
+    struct __st_parameter_open open_parm.1D.3879;
+
+    open_parm.1D.3879.commonD.3685.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+    open_parm.1D.3879.commonD.3685.lineD.3680 = 53;
+    open_parm.1D.3879.fileD.3688 = &"datossal/a_y_suma_b.dat "[1]{lb: 1 sz: 1};
+    open_parm.1D.3879.file_lenD.3687 = 24;
+    open_parm.1D.3879.newunitD.3717 = &fuD.3872;
+    open_parm.1D.3879.readonlyD.3718 = 0;
+    open_parm.1D.3879.commonD.3685.flagsD.3677 = 25166080;
+    open_parm.1D.3879.commonD.3685.unitD.3678 = 0;
+    _gfortran_st_open (&open_parm.1D.3879);
+  }
+  {
+    struct __st_parameter_dt dt_parm.2D.3880;
+
+    dt_parm.2D.3880.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+    dt_parm.2D.3880.commonD.3793.lineD.3680 = 54;
+    dt_parm.2D.3880.commonD.3793.flagsD.3677 = 128;
+    dt_parm.2D.3880.commonD.3793.unitD.3678 = fuD.3872;
+    _gfortran_st_write (&dt_parm.2D.3880);
+    _gfortran_transfer_character_write (&dt_parm.2D.3880, &"# n, n * 0.1_wp , suma1 , ( suma1 - n * 0.1_wp)"[1]{lb: 1 sz: 1}, 47);
+    _gfortran_st_write_done (&dt_parm.2D.3880);
+  }
+  suma1D.3876 = 0.0;
+  {
+    integer(kind=4)D.8 D.3881;
+
+    D.3881 = nmaxD.3875;
+    nD.3874 = 1;
+    while (1)
+      {
+        {
+          logical(kind=4)D.13 D.3884;
+
+          D.3884 = nD.3874 > D.3881;
+          if (D.3884) goto L.2D.3883;
+          suma1D.3876 = suma1D.3876 + 1.00000001490116119384765625e-1;
+          if (nD.3874 % 1000 == 0)
+            {
+              {
+                struct __st_parameter_dt dt_parm.3D.3886;
+
+                dt_parm.3D.3886.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+                dt_parm.3D.3886.commonD.3793.lineD.3680 = 61;
+                dt_parm.3D.3886.formatD.3798 = &"(I8, 3(1X, ES20.13) )"[1]{lb: 1 sz: 1};
+                dt_parm.3D.3886.format_lenD.3799 = 21;
+                dt_parm.3D.3886.commonD.3793.flagsD.3677 = 4096;
+                dt_parm.3D.3886.commonD.3793.unitD.3678 = fuD.3872;
+                _gfortran_st_write (&dt_parm.3D.3886);
+                _gfortran_transfer_integer_write (&dt_parm.3D.3886, &nD.3874, 4);
+                {
+                  real(kind=4)D.16 D.3887;
+
+                  D.3887 = (real(kind=4)D.16) nD.3874 * 1.00000001490116119384765625e-1;
+                  _gfortran_transfer_real_write (&dt_parm.3D.3886, &D.3887, 4);
+                }
+                _gfortran_transfer_real_write (&dt_parm.3D.3886, &suma1D.3876, 4);
+                {
+                  real(kind=4)D.16 D.3888;
+
+                  D.3888 = ((suma1D.3876 - (real(kind=4)D.16) nD.3874 * 1.00000001490116119384765625e-1));
+                  _gfortran_transfer_real_write (&dt_parm.3D.3886, &D.3888, 4);
+                }
+                _gfortran_st_write_done (&dt_parm.3D.3886);
+              }
+            }
+          L.3D.3885:;
+          L.1D.3882:;
+          nD.3874 = nD.3874 + 1;
+        }
+      }
+    L.2D.3883:;
+  }
+  {
+    struct __st_parameter_close close_parm.4D.3889;
+
+    close_parm.4D.3889.commonD.3724.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+    close_parm.4D.3889.commonD.3724.lineD.3680 = 65;
+    close_parm.4D.3889.commonD.3724.flagsD.3677 = 0;
+    close_parm.4D.3889.commonD.3724.unitD.3678 = fuD.3872;
+    _gfortran_st_close (&close_parm.4D.3889);
+  }
+  {
+    struct __st_parameter_dt dt_parm.5D.3890;
+
+    dt_parm.5D.3890.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+    dt_parm.5D.3890.commonD.3793.lineD.3680 = 67;
+    dt_parm.5D.3890.commonD.3793.flagsD.3677 = 128;
+    dt_parm.5D.3890.commonD.3793.unitD.3678 = 6;
+    _gfortran_st_write (&dt_parm.5D.3890);
+    _gfortran_transfer_character_write (&dt_parm.5D.3890, &" suma de 1 a 1000000 de 0.1_wp = "[1]{lb: 1 sz: 1}, 33);
+    _gfortran_transfer_real_write (&dt_parm.5D.3890, &suma1D.3876, 4);
+    _gfortran_st_write_done (&dt_parm.5D.3890);
+  }
+  suma1D.3876 = 0.0;
+  suma2D.3877 = 0.0;
+  mD.3873 = 1;
+  while (1)
+    {
+      {
+        logical(kind=4)D.13 D.3893;
+
+        D.3893 = mD.3873 > 1000;
+        if (D.3893) goto L.5D.3892;
+        suma1D.3876 = suma1D.3876 + 1.00000001490116119384765625e-1;
+        L.4D.3891:;
+        mD.3873 = mD.3873 + 1;
+      }
+    }
+  L.5D.3892:;
+  {
+    struct __st_parameter_open open_parm.6D.3894;
+
+    open_parm.6D.3894.commonD.3685.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+    open_parm.6D.3894.commonD.3685.lineD.3680 = 79;
+    open_parm.6D.3894.fileD.3688 = &"datossal/a_y_suma_c.dat "[1]{lb: 1 sz: 1};
+    open_parm.6D.3894.file_lenD.3687 = 24;
+    open_parm.6D.3894.newunitD.3717 = &fuD.3872;
+    open_parm.6D.3894.readonlyD.3718 = 0;
+    open_parm.6D.3894.commonD.3685.flagsD.3677 = 25166080;
+    open_parm.6D.3894.commonD.3685.unitD.3678 = 0;
+    _gfortran_st_open (&open_parm.6D.3894);
+  }
+  {
+    struct __st_parameter_dt dt_parm.7D.3895;
+
+    dt_parm.7D.3895.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+    dt_parm.7D.3895.commonD.3793.lineD.3680 = 80;
+    dt_parm.7D.3895.commonD.3793.flagsD.3677 = 128;
+    dt_parm.7D.3895.commonD.3793.unitD.3678 = fuD.3872;
+    _gfortran_st_write (&dt_parm.7D.3895);
+    _gfortran_transfer_character_write (&dt_parm.7D.3895, &"# n, n * 100. _wp , suma2 , (suma2 - n * 100._wp)"[1]{lb: 1 sz: 1}, 49);
+    _gfortran_st_write_done (&dt_parm.7D.3895);
+  }
+  nD.3874 = 1;
+  while (1)
+    {
+      {
+        logical(kind=4)D.13 D.3898;
+
+        D.3898 = nD.3874 > 1000;
+        if (D.3898) goto L.7D.3897;
+        suma2D.3877 = suma2D.3877 + suma1D.3876;
+        {
+          struct __st_parameter_dt dt_parm.8D.3899;
+
+          dt_parm.8D.3899.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+          dt_parm.8D.3899.commonD.3793.lineD.3680 = 86;
+          dt_parm.8D.3899.formatD.3798 = &"(I8, 3(1X, ES20.13) )"[1]{lb: 1 sz: 1};
+          dt_parm.8D.3899.format_lenD.3799 = 21;
+          dt_parm.8D.3899.commonD.3793.flagsD.3677 = 4096;
+          dt_parm.8D.3899.commonD.3793.unitD.3678 = fuD.3872;
+          _gfortran_st_write (&dt_parm.8D.3899);
+          _gfortran_transfer_integer_write (&dt_parm.8D.3899, &nD.3874, 4);
+          {
+            real(kind=4)D.16 D.3900;
+
+            D.3900 = (real(kind=4)D.16) nD.3874 * 1.0e+2;
+            _gfortran_transfer_real_write (&dt_parm.8D.3899, &D.3900, 4);
+          }
+          _gfortran_transfer_real_write (&dt_parm.8D.3899, &suma2D.3877, 4);
+          {
+            real(kind=4)D.16 D.3901;
+
+            D.3901 = ((suma2D.3877 - (real(kind=4)D.16) nD.3874 * 1.0e+2));
+            _gfortran_transfer_real_write (&dt_parm.8D.3899, &D.3901, 4);
+          }
+          _gfortran_st_write_done (&dt_parm.8D.3899);
+        }
+        L.6D.3896:;
+        nD.3874 = nD.3874 + 1;
+      }
+    }
+  L.7D.3897:;
+  {
+    struct __st_parameter_close close_parm.9D.3902;
+
+    close_parm.9D.3902.commonD.3724.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+    close_parm.9D.3902.commonD.3724.lineD.3680 = 89;
+    close_parm.9D.3902.commonD.3724.flagsD.3677 = 0;
+    close_parm.9D.3902.commonD.3724.unitD.3678 = fuD.3872;
+    _gfortran_st_close (&close_parm.9D.3902);
+  }
+  {
+    struct __st_parameter_dt dt_parm.10D.3903;
+
+    dt_parm.10D.3903.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+    dt_parm.10D.3903.commonD.3793.lineD.3680 = 91;
+    dt_parm.10D.3903.commonD.3793.flagsD.3677 = 128;
+    dt_parm.10D.3903.commonD.3793.unitD.3678 = 6;
+    _gfortran_st_write (&dt_parm.10D.3903);
+    _gfortran_transfer_character_write (&dt_parm.10D.3903, &" suma de 1 a 1000 de 1 a 1000 de 0.1_wp = "[1]{lb: 1 sz: 1}, 42);
+    _gfortran_transfer_real_write (&dt_parm.10D.3903, &suma2D.3877, 4);
+    _gfortran_st_write_done (&dt_parm.10D.3903);
+  }
+  _gfortran_system_sub (&"gnuplot -p G1e13.plt"[1]{lb: 1 sz: 1}, 0B, 20);
+}
+
+
+__attribute__((externally_visible))
+main (integer(kind=4) argc, character(kind=1) * * argv)
+{
+  static integer(kind=4)D.8 options.11D.3914[7] = {2116, 4095, 0, 1, 1, 0, 31};
+
+  _gfortran_set_args (argcD.3912, argvD.3913);
+  _gfortran_set_options (7, &options.11D.3914[0]);
+  g1e13 ();
+  return 0;
+}
+
+

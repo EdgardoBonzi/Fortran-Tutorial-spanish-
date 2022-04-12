@@ -1,0 +1,320 @@
+
+;; Function g1e13 (MAIN__, funcdef_no=0, decl_uid=3870, cgraph_uid=1, symbol_order=0)
+
+g1e13 ()
+{
+  struct __st_parameter_dt dt_parm.10D.3903;
+  struct __st_parameter_close close_parm.9D.3902;
+  real(kind=4)D.16 D.3901;
+  real(kind=4)D.16 D.3900;
+  struct __st_parameter_dt dt_parm.8D.3899;
+  logical(kind=4)D.13 D.3898;
+  struct __st_parameter_dt dt_parm.7D.3895;
+  struct __st_parameter_open open_parm.6D.3894;
+  logical(kind=4)D.13 D.3893;
+  struct __st_parameter_dt dt_parm.5D.3890;
+  struct __st_parameter_close close_parm.4D.3889;
+  real(kind=4)D.16 D.3888;
+  real(kind=4)D.16 D.3887;
+  struct __st_parameter_dt dt_parm.3D.3886;
+  logical(kind=4)D.13 D.3884;
+  integer(kind=4)D.8 D.3881;
+  struct __st_parameter_dt dt_parm.2D.3880;
+  struct __st_parameter_open open_parm.1D.3879;
+  struct __st_parameter_dt dt_parm.0D.3878;
+  real(kind=4)D.16 suma2D.3877;
+  real(kind=4)D.16 suma1D.3876;
+  integer(kind=4)D.8 nmaxD.3875;
+  integer(kind=4)D.8 nD.3874;
+  integer(kind=4)D.8 mD.3873;
+  integer(kind=4)D.8 fuD.3872;
+  real(kind=4)D.16 _1;
+  real(kind=4)D.16 _2;
+  integer(kind=4)D.8 fu.12_3;
+  integer(kind=4)D.8 n.13_4;
+  real(kind=4)D.16 suma1.14_5;
+  real(kind=4)D.16 _6;
+  integer(kind=4)D.8 n.15_7;
+  integer(kind=4)D.8 _8;
+  integer(kind=4)D.8 fu.16_9;
+  integer(kind=4)D.8 n.17_10;
+  real(kind=4)D.16 _11;
+  real(kind=4)D.16 _12;
+  real(kind=4)D.16 suma1.18_13;
+  integer(kind=4)D.8 n.19_14;
+  real(kind=4)D.16 _15;
+  real(kind=4)D.16 _16;
+  real(kind=4)D.16 _17;
+  real(kind=4)D.16 _18;
+  integer(kind=4)D.8 n.20_19;
+  integer(kind=4)D.8 _20;
+  integer(kind=4)D.8 fu.21_21;
+  real(kind=4)D.16 suma1.22_22;
+  real(kind=4)D.16 _23;
+  integer(kind=4)D.8 fu.23_24;
+  integer(kind=4)D.8 n.24_25;
+  real(kind=4)D.16 suma2.25_26;
+  real(kind=4)D.16 suma1.26_27;
+  real(kind=4)D.16 _28;
+  integer(kind=4)D.8 fu.27_29;
+  integer(kind=4)D.8 n.28_30;
+  real(kind=4)D.16 _31;
+  real(kind=4)D.16 _32;
+  real(kind=4)D.16 suma2.29_33;
+  integer(kind=4)D.8 n.30_34;
+  real(kind=4)D.16 _35;
+  real(kind=4)D.16 _36;
+  real(kind=4)D.16 _37;
+  real(kind=4)D.16 _38;
+  integer(kind=4)D.8 n.31_39;
+  integer(kind=4)D.8 _40;
+  integer(kind=4)D.8 fu.32_41;
+  integer(kind=4)D.8 _78;
+  logical(kind=4)D.13 _80;
+  logical(kind=4)D.13 _118;
+  logical(kind=4)D.13 _140;
+
+  <bb 2> :
+  nmax_47 = 1000000;
+  _1 = (real(kind=4)D.16) nmax_47;
+  _2 = _1 * 1.00000001490116119384765625e-1;
+  suma1D.3876 = _2;
+  dt_parm.0D.3878.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  dt_parm.0D.3878.commonD.3793.lineD.3680 = 49;
+  dt_parm.0D.3878.commonD.3793.flagsD.3677 = 128;
+  dt_parm.0D.3878.commonD.3793.unitD.3678 = 6;
+  _gfortran_st_write (&dt_parm.0D.3878);
+  _gfortran_transfer_character_write (&dt_parm.0D.3878, &" 1000000 * 0.1_wp = "[1]{lb: 1 sz: 1}, 20);
+  _gfortran_transfer_real_write (&dt_parm.0D.3878, &suma1D.3876, 4);
+  _gfortran_st_write_done (&dt_parm.0D.3878);
+  dt_parm.0D.3878 ={v} {CLOBBER};
+  open_parm.1D.3879.commonD.3685.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  open_parm.1D.3879.commonD.3685.lineD.3680 = 53;
+  open_parm.1D.3879.fileD.3688 = &"datossal/a_y_suma_b.dat "[1]{lb: 1 sz: 1};
+  open_parm.1D.3879.file_lenD.3687 = 24;
+  open_parm.1D.3879.newunitD.3717 = &fuD.3872;
+  open_parm.1D.3879.readonlyD.3718 = 0;
+  open_parm.1D.3879.commonD.3685.flagsD.3677 = 25166080;
+  open_parm.1D.3879.commonD.3685.unitD.3678 = 0;
+  _gfortran_st_open (&open_parm.1D.3879);
+  open_parm.1D.3879 ={v} {CLOBBER};
+  dt_parm.2D.3880.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  dt_parm.2D.3880.commonD.3793.lineD.3680 = 54;
+  dt_parm.2D.3880.commonD.3793.flagsD.3677 = 128;
+  fu.12_3 = fuD.3872;
+  dt_parm.2D.3880.commonD.3793.unitD.3678 = fu.12_3;
+  _gfortran_st_write (&dt_parm.2D.3880);
+  _gfortran_transfer_character_write (&dt_parm.2D.3880, &"# n, n * 0.1_wp , suma1 , ( suma1 - n * 0.1_wp)"[1]{lb: 1 sz: 1}, 47);
+  _gfortran_st_write_done (&dt_parm.2D.3880);
+  dt_parm.2D.3880 ={v} {CLOBBER};
+  suma1D.3876 = 0.0;
+  _78 = nmax_47;
+  nD.3874 = 1;
+
+  <bb 3> :
+  n.13_4 = nD.3874;
+  _80 = _78 < n.13_4;
+  if (_80 != 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 4> :
+  suma1.14_5 = suma1D.3876;
+  _6 = suma1.14_5 + 1.00000001490116119384765625e-1;
+  suma1D.3876 = _6;
+  n.15_7 = nD.3874;
+  _8 = n.15_7 % 1000;
+  if (_8 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  dt_parm.3D.3886.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  dt_parm.3D.3886.commonD.3793.lineD.3680 = 61;
+  dt_parm.3D.3886.formatD.3798 = &"(I8, 3(1X, ES20.13) )"[1]{lb: 1 sz: 1};
+  dt_parm.3D.3886.format_lenD.3799 = 21;
+  dt_parm.3D.3886.commonD.3793.flagsD.3677 = 4096;
+  fu.16_9 = fuD.3872;
+  dt_parm.3D.3886.commonD.3793.unitD.3678 = fu.16_9;
+  _gfortran_st_write (&dt_parm.3D.3886);
+  _gfortran_transfer_integer_write (&dt_parm.3D.3886, &nD.3874, 4);
+  n.17_10 = nD.3874;
+  _11 = (real(kind=4)D.16) n.17_10;
+  _12 = _11 * 1.00000001490116119384765625e-1;
+  D.3887 = _12;
+  _gfortran_transfer_real_write (&dt_parm.3D.3886, &D.3887, 4);
+  D.3887 ={v} {CLOBBER};
+  _gfortran_transfer_real_write (&dt_parm.3D.3886, &suma1D.3876, 4);
+  suma1.18_13 = suma1D.3876;
+  n.19_14 = nD.3874;
+  _15 = (real(kind=4)D.16) n.19_14;
+  _16 = _15 * 1.00000001490116119384765625e-1;
+  _17 = suma1.18_13 - _16;
+  _18 = ((_17));
+  D.3888 = _18;
+  _gfortran_transfer_real_write (&dt_parm.3D.3886, &D.3888, 4);
+  D.3888 ={v} {CLOBBER};
+  _gfortran_st_write_done (&dt_parm.3D.3886);
+  dt_parm.3D.3886 ={v} {CLOBBER};
+
+  <bb 6> :
+  n.20_19 = nD.3874;
+  _20 = n.20_19 + 1;
+  nD.3874 = _20;
+  goto <bb 3>; [INV]
+
+  <bb 7> :
+  close_parm.4D.3889.commonD.3724.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  close_parm.4D.3889.commonD.3724.lineD.3680 = 65;
+  close_parm.4D.3889.commonD.3724.flagsD.3677 = 0;
+  fu.21_21 = fuD.3872;
+  close_parm.4D.3889.commonD.3724.unitD.3678 = fu.21_21;
+  _gfortran_st_close (&close_parm.4D.3889);
+  close_parm.4D.3889 ={v} {CLOBBER};
+  dt_parm.5D.3890.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  dt_parm.5D.3890.commonD.3793.lineD.3680 = 67;
+  dt_parm.5D.3890.commonD.3793.flagsD.3677 = 128;
+  dt_parm.5D.3890.commonD.3793.unitD.3678 = 6;
+  _gfortran_st_write (&dt_parm.5D.3890);
+  _gfortran_transfer_character_write (&dt_parm.5D.3890, &" suma de 1 a 1000000 de 0.1_wp = "[1]{lb: 1 sz: 1}, 33);
+  _gfortran_transfer_real_write (&dt_parm.5D.3890, &suma1D.3876, 4);
+  _gfortran_st_write_done (&dt_parm.5D.3890);
+  dt_parm.5D.3890 ={v} {CLOBBER};
+  suma1D.3876 = 0.0;
+  suma2D.3877 = 0.0;
+  m_117 = 1;
+
+  <bb 8> :
+  # m_42 = PHI <m_117(7), m_120(9)>
+  _118 = m_42 > 1000;
+  if (_118 != 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 9> :
+  suma1.22_22 = suma1D.3876;
+  _23 = suma1.22_22 + 1.00000001490116119384765625e-1;
+  suma1D.3876 = _23;
+  m_120 = m_42 + 1;
+  goto <bb 8>; [INV]
+
+  <bb 10> :
+  open_parm.6D.3894.commonD.3685.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  open_parm.6D.3894.commonD.3685.lineD.3680 = 79;
+  open_parm.6D.3894.fileD.3688 = &"datossal/a_y_suma_c.dat "[1]{lb: 1 sz: 1};
+  open_parm.6D.3894.file_lenD.3687 = 24;
+  open_parm.6D.3894.newunitD.3717 = &fuD.3872;
+  open_parm.6D.3894.readonlyD.3718 = 0;
+  open_parm.6D.3894.commonD.3685.flagsD.3677 = 25166080;
+  open_parm.6D.3894.commonD.3685.unitD.3678 = 0;
+  _gfortran_st_open (&open_parm.6D.3894);
+  open_parm.6D.3894 ={v} {CLOBBER};
+  dt_parm.7D.3895.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  dt_parm.7D.3895.commonD.3793.lineD.3680 = 80;
+  dt_parm.7D.3895.commonD.3793.flagsD.3677 = 128;
+  fu.23_24 = fuD.3872;
+  dt_parm.7D.3895.commonD.3793.unitD.3678 = fu.23_24;
+  _gfortran_st_write (&dt_parm.7D.3895);
+  _gfortran_transfer_character_write (&dt_parm.7D.3895, &"# n, n * 100. _wp , suma2 , (suma2 - n * 100._wp)"[1]{lb: 1 sz: 1}, 49);
+  _gfortran_st_write_done (&dt_parm.7D.3895);
+  dt_parm.7D.3895 ={v} {CLOBBER};
+  nD.3874 = 1;
+
+  <bb 11> :
+  n.24_25 = nD.3874;
+  _140 = n.24_25 > 1000;
+  if (_140 != 0)
+    goto <bb 13>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 12> :
+  suma2.25_26 = suma2D.3877;
+  suma1.26_27 = suma1D.3876;
+  _28 = suma2.25_26 + suma1.26_27;
+  suma2D.3877 = _28;
+  dt_parm.8D.3899.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  dt_parm.8D.3899.commonD.3793.lineD.3680 = 86;
+  dt_parm.8D.3899.formatD.3798 = &"(I8, 3(1X, ES20.13) )"[1]{lb: 1 sz: 1};
+  dt_parm.8D.3899.format_lenD.3799 = 21;
+  dt_parm.8D.3899.commonD.3793.flagsD.3677 = 4096;
+  fu.27_29 = fuD.3872;
+  dt_parm.8D.3899.commonD.3793.unitD.3678 = fu.27_29;
+  _gfortran_st_write (&dt_parm.8D.3899);
+  _gfortran_transfer_integer_write (&dt_parm.8D.3899, &nD.3874, 4);
+  n.28_30 = nD.3874;
+  _31 = (real(kind=4)D.16) n.28_30;
+  _32 = _31 * 1.0e+2;
+  D.3900 = _32;
+  _gfortran_transfer_real_write (&dt_parm.8D.3899, &D.3900, 4);
+  D.3900 ={v} {CLOBBER};
+  _gfortran_transfer_real_write (&dt_parm.8D.3899, &suma2D.3877, 4);
+  suma2.29_33 = suma2D.3877;
+  n.30_34 = nD.3874;
+  _35 = (real(kind=4)D.16) n.30_34;
+  _36 = _35 * 1.0e+2;
+  _37 = suma2.29_33 - _36;
+  _38 = ((_37));
+  D.3901 = _38;
+  _gfortran_transfer_real_write (&dt_parm.8D.3899, &D.3901, 4);
+  D.3901 ={v} {CLOBBER};
+  _gfortran_st_write_done (&dt_parm.8D.3899);
+  dt_parm.8D.3899 ={v} {CLOBBER};
+  n.31_39 = nD.3874;
+  _40 = n.31_39 + 1;
+  nD.3874 = _40;
+  goto <bb 11>; [INV]
+
+  <bb 13> :
+  close_parm.9D.3902.commonD.3724.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  close_parm.9D.3902.commonD.3724.lineD.3680 = 89;
+  close_parm.9D.3902.commonD.3724.flagsD.3677 = 0;
+  fu.32_41 = fuD.3872;
+  close_parm.9D.3902.commonD.3724.unitD.3678 = fu.32_41;
+  _gfortran_st_close (&close_parm.9D.3902);
+  close_parm.9D.3902 ={v} {CLOBBER};
+  dt_parm.10D.3903.commonD.3793.filenameD.3679 = &"G1e13.f90"[1]{lb: 1 sz: 1};
+  dt_parm.10D.3903.commonD.3793.lineD.3680 = 91;
+  dt_parm.10D.3903.commonD.3793.flagsD.3677 = 128;
+  dt_parm.10D.3903.commonD.3793.unitD.3678 = 6;
+  _gfortran_st_write (&dt_parm.10D.3903);
+  _gfortran_transfer_character_write (&dt_parm.10D.3903, &" suma de 1 a 1000 de 1 a 1000 de 0.1_wp = "[1]{lb: 1 sz: 1}, 42);
+  _gfortran_transfer_real_write (&dt_parm.10D.3903, &suma2D.3877, 4);
+  _gfortran_st_write_done (&dt_parm.10D.3903);
+  dt_parm.10D.3903 ={v} {CLOBBER};
+  _gfortran_system_sub (&"gnuplot -p G1e13.plt"[1]{lb: 1 sz: 1}, 0B, 20);
+  fuD.3872 ={v} {CLOBBER};
+  nD.3874 ={v} {CLOBBER};
+  suma1D.3876 ={v} {CLOBBER};
+  suma2D.3877 ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function main (main, funcdef_no=1, decl_uid=3910, cgraph_uid=2, symbol_order=1)
+
+__attribute__((externally_visible))
+main (integer(kind=4)D.8 argcD.3912, character(kind=1)D.24 * * argvD.3913)
+{
+  static integer(kind=4)D.8 options.11D.3914[7] = {2116, 4095, 0, 1, 1, 0, 31};
+  integer(kind=4)D.8 D.3924;
+  integer(kind=4)D.8 _7;
+
+  <bb 2> :
+  _gfortran_set_args (argc_2(D), argv_3(D));
+  _gfortran_set_options (7, &options.11D.3914[0]);
+  g1e13 ();
+  _7 = 0;
+
+  <bb 3> :
+<L0>:
+  return _7;
+
+}
+
+
